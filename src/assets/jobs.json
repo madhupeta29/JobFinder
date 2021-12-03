@@ -9,56 +9,56 @@
     {
         "id": 2,
         "jobTitle": "Java Postions",
-        "jobDescription": "Having min 3 Years to 10 years",
+        "jobDescription": "Having min 3 Years to 15 years",
         "isApplied": true,
         "techStcok": "Spring, SpringBoot"
     },
     {
         "id": 3,
         "jobTitle": "PHP Postions",
-        "jobDescription": "Having min 3 Years to 10 years",
+        "jobDescription": "Having min 4 Years to 9 years",
         "isApplied": false,
         "techStcok": "Html,css,PHP"
     },
     {
         "id": 4,
         "jobTitle": "Python Postions",
-        "jobDescription": "Having min 3 Years to 10 years",
+        "jobDescription": "Having min 5 Years to 10 years",
         "isApplied": false,
-        "techStcok": "Html,css,Javascript"
+        "techStcok": "Html,css,bootstrap,Django,Javascript"
     },
     {
         "id": 5,
-        "jobTitle": "Ruby Postions",
-        "jobDescription": "Having min 3 Years to 10 years",
+        "jobTitle": "React Postions",
+        "jobDescription": "Having min 4 Years to 6 years",
         "isApplied": false,
-        "techStcok": "Html,css,Javascript"
+        "techStcok": "Html,css,Javascript,Bootstrap"
     }, {
         "id": 6,
-        "jobTitle": "Angular Postions",
-        "jobDescription": "Having min 3 Years to 10 years",
+        "jobTitle": "Vue Postions",
+        "jobDescription": "Having min 5 Years to 8 years",
         "isApplied": false,
         "techStcok": "Html,css,Javascript"
     }, {
-        "id": 9,
-        "jobTitle": "Angular Postions",
+        "id": 7,
+        "jobTitle": "Devops Postions",
         "jobDescription": "Having min 3 Years to 10 years",
         "isApplied": false,
-        "techStcok": "Html,css,Javascript"
+        "techStcok": "Java,Python,"
     }, {
-        "id": 10,
+        "id": 8,
         "jobTitle": "Grails Postions",
         "jobDescription": "Having min 3 Years to 10 years",
         "isApplied": false,
         "techStcok": "Html,css,Javascript"
     }, {
-        "id": 7,
+        "id": 9,
         "jobTitle": "Go Postions",
         "jobDescription": "Having min 3 Years to 10 years",
         "isApplied": false,
         "techStcok": "Html,css,Javascript"
     }, {
-        "id": 8,
+        "id": 10,
         "jobTitle": ".net Postions",
         "jobDescription": "Having min 3 Years to 10 years",
         "isApplied": false,

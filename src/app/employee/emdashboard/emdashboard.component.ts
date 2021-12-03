@@ -12,12 +12,8 @@ export class EmdashboardComponent implements OnInit {
   constructor(private j: JobService) { }
 
   ngOnInit(): void {
-
-    this.j.getJobsData().subscribe(res =>{
-     this.j.setJobs(res.jobs);
-    });
-
     this.j.getjobs().subscribe(jobs => {
+      console.log("calling");
       this.jobs = jobs;
     })
   }

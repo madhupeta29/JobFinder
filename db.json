@@ -68,6 +68,66 @@
       "confirmpassword": "Siddu@123",
       "isEmployee": "emlpoyeer",
       "id": 7
+    },
+    {
+      "email": "venu@gmail.com",
+      "password": "$2a$10$on6bQtqt8PRhhAT2zuILC.rjHmGB66GEhm0igx.47C3625u8125Nu",
+      "firstName": "venu",
+      "lastName": "venu",
+      "userName": "venu",
+      "confirmpassword": "Venu@123",
+      "isEmployee": "employee",
+      "id": 8
+    },
+    {
+      "email": "hari123@gmail.com",
+      "password": "$2a$10$dTWQSZEpYyY1Zz4gIym9Tu6KYA84Prtm2Aw6yaEAHj8Keg4kc1CO2",
+      "firstName": "hari123",
+      "lastName": "hari123",
+      "userName": "hari123",
+      "confirmpassword": "Hari@123",
+      "isEmployee": "employee",
+      "id": 9
+    },
+    {
+      "email": "peta@gmail.com",
+      "password": "$2a$10$6HgED/dq8UJW/PBvTDmJiuJtVrvHgHFjQ6VfxziwKtEKvisBS.ThG",
+      "firstName": "peta",
+      "lastName": "peta",
+      "userName": "peta",
+      "confirmpassword": "Peta@123",
+      "isEmployee": "employee",
+      "id": 10
+    },
+    {
+      "email": "siva111@gmail.com",
+      "password": "$2a$10$iS/b903aH.bgTGB7ImLKVOgInSMPPO5N8rbRBSjk4d5WU2usLjSYa",
+      "firstName": "siva111",
+      "lastName": "siva111",
+      "userName": "siva111",
+      "confirmpassword": "Siva@123",
+      "isEmployee": "employee",
+      "id": 11
+    },
+    {
+      "email": "siddaiah@gmail.com",
+      "password": "$2a$10$8WRQ5RLhhybPLYeXO6z8g.PShY2sITizSl6FIdIhyfaKiUcnw9n76",
+      "firstName": "siddaiah",
+      "lastName": "siddaiah",
+      "userName": "siddu",
+      "confirmpassword": "Siddu@123",
+      "isEmployee": "employee",
+      "id": 12
+    },
+    {
+      "email": "madhupeta29@gmail.com",
+      "password": "$2a$10$tb2.a9aFPKlI9CUncStBMeKLgfn7Zg5.J2AGlbl13uK9Ln4KlHSAa",
+      "firstName": "madhu",
+      "lastName": "peta",
+      "userName": "madhu234",
+      "confirmpassword": "Welcome29#",
+      "isEmployee": "employee",
+      "id": 13
     }
   ]
 }

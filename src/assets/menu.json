@@ -2,79 +2,16 @@
     {
         "header": "Employeer",
         "id": 1,
-        "hasChildren":  true,
-        "routing": "employeer",
-        "children": [
-            {
-                "header": "Login",
-                "id": 2,
-                "hasChildren": false,
-                "routing": "login"
-            },
-            {
-                "header": "Register",
-                "id": 3,
-                "hasChildren": false,
-                "routing": "login/register"
-            }
-        ]
+        "hasChildren":  false,
+        "routing": "employeer"
     },
 
     {
         "header": "Employee",
         "id": 4,
-        "hasChildren": true,
-        "routing": "employee",
-        "children": [
-            {
-                "header": "login",
-                "id": 5,
-                "hasChildren": false,
-                "routing": "login"            }
-        ]
-    },
-    {
-        "header": "About",
-        "id": 6,
-        "hasChildren": true,
-        "routing": "",
-        "children":[ {
-            "header": "About sub Menu1",
-            "id": 6,
-            "hasChildren": true,
-            "routing": ""
-        },
-        {
-            "header": "Abooyt nbew",
-            "id": 6,
-            "hasChildren": true,
-            "routing": ""
-        },
-        {
-            "header": "About sub Menu3",
-            "id": 6,
-            "hasChildren": true,
-            "routing": ""
-        },
-        {
-            "header": "About sub Menu4",
-            "id": 6,
-            "hasChildren": true,
-            "routing": ""
-        }
-    ]
-    },
-
-    {
-        "header": "Contact",
-        "id": 5,
-        "hasChildren": false
-    },
-    {
-        "header": "Login",
-        "id": 5,
         "hasChildren": false,
-        "routing": "login"
+        "routing": "employee"
     }
+    
     
 ]

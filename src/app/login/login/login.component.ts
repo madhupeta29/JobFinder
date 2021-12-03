@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
+import { JobService } from 'src/app/service/job.service';
 import { RegisterService } from 'src/app/services/register.service';
 
 @Component({
@@ -10,7 +11,7 @@ import { RegisterService } from 'src/app/services/register.service';
 })
 export class LoginComponent implements OnInit {
   loginForm: any;
-  constructor(private router: Router,private fb: FormBuilder, private registerService: RegisterService) { }
+  constructor(private router: Router,private fb: FormBuilder, private registerService: RegisterService, private j: JobService) { }
 
   ngOnInit(): void {
     this.loginForm = this.fb.group({
@@ -29,10 +30,12 @@ export class LoginComponent implements OnInit {
       console.log(res);
       localStorage.setItem("user", JSON.stringify(res));
       const url = res.user.isEmployee == 'employee' ? 'employee': 'employeer';
-      this.registerService.setData("islogdIn");
+      this.j.getJobsData().subscribe(res =>{
+        this.j.setJobs(res.jobs);
+      });
       this.router.navigateByUrl(url);
-
-    })
+    });
+   
   }
 
 }
