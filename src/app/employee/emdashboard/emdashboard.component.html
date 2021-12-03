@@ -1,0 +1,80 @@
+<div class="container mt-3">
+    <div class="row">
+        
+        <div class="card">
+            <div class="input-group mb-3 mt-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1"><i class="fa fa-search"></i>&nbsp;</span>
+                </div>
+                <input type="text" class="form-control" [(ngModel)]="key" placeholder="Seacrch Job Here" aria-label="Username" aria-describedby="basic-addon1">
+              </div>
+              <ul>
+                <li *ngFor="let job of jobs| filter:key">
+                    <div class="row">
+                        <div class="col-10">
+                            <h5>{{job.jobTitle}}</h5>
+                            <p>{{job.jobDescription}} </p>
+                            <p>{{job.techStcok}}t</p>
+                        </div>
+                        <div class="col-2">
+                            <button class="btn btn-primary" [disabled]="job.isApplied"> Apply</button>
+                        </div>
+                    </div>
+                    
+                </li>
+              </ul>
+              
+            <!-- <ul>
+                <li>
+                    <div class="row">
+                        <div class="col-10">
+                            <h5>Angular Postio</h5>
+                            <p>Need good skils On Angular </p>
+                            <p>Html, css, javasctipt</p>
+                        </div>
+                        <div class="col-2">
+                            <button class="btn btn-primary"> Apply</button>
+                        </div>
+                    </div>
+                    
+                </li>
+                <li>
+                    <div class="row">
+                        <div class="col-10">
+                            <h5>.Net Postio</h5>
+                            <p>Need good skils On Angular </p>
+                            <p>Html, css, javasctipt</p>
+                        </div>
+                        <div class="col-2">
+                            <button class="btn btn-primary"> Apply</button>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="row">
+                        <div class="col-10">
+                            <h5>React Postio</h5>
+                            <p>Need good skils On Angular </p>
+                            <p>Html, css, javasctipt</p>
+                        </div>
+                        <div class="col-2">
+                            <button class="btn btn-primary"> Apply</button>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="row">
+                        <div class="col-10">
+                            <h5>Java Postion</h5>
+                            <p>Need good skils On Angular </p>
+                            <p>Html, css, javasctipt</p>
+                        </div>
+                        <div class="col-2">
+                            <button class="btn btn-primary"> Apply</button>
+                        </div>
+                    </div>
+                </li>
+            </ul> -->
+        </div>
+    </div>
+</div>

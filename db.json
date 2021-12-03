@@ -1,0 +1,73 @@
+{
+  "users": [
+    {
+      "email": "olivier@mail.com",
+      "password": "$2a$10$DP6yRXncHlFJmF6vohmipuqvWDUL7hj0ovcmknI3EsmNzJYPzJrZS",
+      "firstname": "Olivier",
+      "lastname": "Monge",
+      "age": 32,
+      "id": 1
+    },
+    {
+      "email": "hari@gmail.com",
+      "password": "$2a$10$wzYgPrS0fj0yaiKndCGV3OCiOzATJD/iOOcVlg2ejLLbo6NxHttAe",
+      "firstName": "madhu",
+      "lastName": "p",
+      "userName": "hari@gmail.com",
+      "company": "ABC",
+      "confirmPassWord": "12345",
+      "isEmployee": "Employee",
+      "id": 2
+    },
+    {
+      "email": "siva@gmail.com",
+      "password": "$2a$10$tQExWLlf8g8lFxcSKiaECO9cSiimzO7JH0Fc.wBDY1nywJyJXlsVO",
+      "firstName": "Siva",
+      "lastName": "Reddy",
+      "userName": "siva",
+      "confirmpassword": "Tube@123",
+      "isEmployee": "employee",
+      "id": 3
+    },
+    {
+      "email": "sagar@email.com",
+      "password": "$2a$10$RAMfYhb2tbQQj.yky3rareJB8KbJ5KYkh/11WOHFEyOV7SaEyxRSu",
+      "firstName": "sagar",
+      "lastName": "sagar",
+      "userName": "sagar",
+      "confirmpassword": "Sagar@123",
+      "isEmployee": "employee",
+      "id": 4
+    },
+    {
+      "email": "kiran@gmail.com",
+      "password": "$2a$10$B/hKPcsO3jCMF5GPNH1aCugaN9RzXoYMjU8Tl00PzQdbL.L0cMTIC",
+      "firstName": "kiran",
+      "lastName": "jiran",
+      "userName": "kiran",
+      "confirmpassword": "Kiran@123",
+      "isEmployee": "employee",
+      "id": 5
+    },
+    {
+      "email": "ravi@gmail.com",
+      "password": "$2a$10$OSZNG8R/a56f7eRhJTxjRe/3Rm30JIL5iMNU9x9QpMsukX2CV9d2y",
+      "firstName": "Ravi",
+      "lastName": "Ravi",
+      "userName": "Ravi",
+      "confirmpassword": "Ravi@123",
+      "isEmployee": "employee",
+      "id": 6
+    },
+    {
+      "email": "siddu@gmail.com",
+      "password": "$2a$10$tElIHKnIM7CSo8h5OzAI0OZmS3eD6IEMQipfvOg7eP6p0RE9icVEa",
+      "firstName": "siddu",
+      "lastName": "siddu",
+      "userName": "siddu",
+      "confirmpassword": "Siddu@123",
+      "isEmployee": "emlpoyeer",
+      "id": 7
+    }
+  ]
+}

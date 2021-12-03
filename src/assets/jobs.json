@@ -1,0 +1,68 @@
+{
+    "jobs": [{
+        "id": 1,
+        "jobTitle": "Angular Postions",
+        "jobDescription": "Having min 3 Years to 10 years",
+        "isApplied": false,
+        "techStcok": "Html,css,Javascript"
+    },
+    {
+        "id": 2,
+        "jobTitle": "Java Postions",
+        "jobDescription": "Having min 3 Years to 10 years",
+        "isApplied": true,
+        "techStcok": "Spring, SpringBoot"
+    },
+    {
+        "id": 3,
+        "jobTitle": "PHP Postions",
+        "jobDescription": "Having min 3 Years to 10 years",
+        "isApplied": false,
+        "techStcok": "Html,css,PHP"
+    },
+    {
+        "id": 4,
+        "jobTitle": "Python Postions",
+        "jobDescription": "Having min 3 Years to 10 years",
+        "isApplied": false,
+        "techStcok": "Html,css,Javascript"
+    },
+    {
+        "id": 5,
+        "jobTitle": "Ruby Postions",
+        "jobDescription": "Having min 3 Years to 10 years",
+        "isApplied": false,
+        "techStcok": "Html,css,Javascript"
+    }, {
+        "id": 6,
+        "jobTitle": "Angular Postions",
+        "jobDescription": "Having min 3 Years to 10 years",
+        "isApplied": false,
+        "techStcok": "Html,css,Javascript"
+    }, {
+        "id": 9,
+        "jobTitle": "Angular Postions",
+        "jobDescription": "Having min 3 Years to 10 years",
+        "isApplied": false,
+        "techStcok": "Html,css,Javascript"
+    }, {
+        "id": 10,
+        "jobTitle": "Grails Postions",
+        "jobDescription": "Having min 3 Years to 10 years",
+        "isApplied": false,
+        "techStcok": "Html,css,Javascript"
+    }, {
+        "id": 7,
+        "jobTitle": "Go Postions",
+        "jobDescription": "Having min 3 Years to 10 years",
+        "isApplied": false,
+        "techStcok": "Html,css,Javascript"
+    }, {
+        "id": 8,
+        "jobTitle": ".net Postions",
+        "jobDescription": "Having min 3 Years to 10 years",
+        "isApplied": false,
+        "techStcok": "Html,css,Javascript"
+    }
+]
+}
